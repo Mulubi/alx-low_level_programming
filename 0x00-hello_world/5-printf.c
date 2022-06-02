@@ -1,4 +1,3 @@
-#!/bin/bash
 include <stdio.h>
 /**
  * main - function prints the phrase specified
