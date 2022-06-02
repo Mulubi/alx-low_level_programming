@@ -1,2 +1,2 @@
 #!/bin/bash
-export $CFILE=cisfun.c ; ./cisfun
+gcc -S -masm=intel $CFILE
