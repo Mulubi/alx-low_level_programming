@@ -1,7 +1,8 @@
 #include <stdio.h>
-/* Main function prints the phrase,
+/*
+ * Main function prints the phrase,
  * specified while the return function,
- * ends the program if it runs successfully 
+ * ends the program if it runs successfully
  */
 int main(void)
 {
