@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * main - assigns a random number to int n everytime executed,
- * return: 0 if the program executes successfuly.
+ * Return: 0 if the program executes successfuly.
  * if: collects the first input and checks whether true,
  * if not true the second function runs instead.
  * else: closes the block if both declared functions are not true.
