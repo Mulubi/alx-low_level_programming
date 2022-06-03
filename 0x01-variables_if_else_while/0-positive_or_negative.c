@@ -7,16 +7,17 @@
 int main(void)
 {
 	int n;
+	putchar[0] = n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
 	if (n>0)
-		printf("%d","n, is positive\n");
+		printf("%c","n, is positive\n");
 	if (n=0)
-		printf("%d","n, is zero\n");
+		printf("%c","n, is zero\n");
 	else
-		printf("%d","n, is negative\n");
+		printf("%c","n, is negative\n");
 	
 	return (0);
 }
