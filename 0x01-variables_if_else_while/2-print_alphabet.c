@@ -4,7 +4,7 @@
  * followed by a new line
  * Return: should be 0 for success
  */
-int main (void)
+int main(void)
 {
 	char ch;
 
