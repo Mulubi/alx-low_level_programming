@@ -1,23 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+/**
+ * main - declares the type of int variable
+ * if: collects the first input and checks whether true,
+ * if not true the second function runs instead.
+ * else: closes the block if both declared functions are not true.
+ */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
-	putchar[0] = n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
 	if (n>0)
-		printf("%c","n, is positive\n");
-	if (n=0)
-		printf("%c","n, is zero\n");
+		printf("%d is positive\n", n);
+	if (n==0)
+		printf("%d is zero\n", n);
 	else
-		printf("%c","n, is negative\n");
+		printf("%d is negative\n", n);
 	
 	return (0);
 }
