@@ -6,7 +6,7 @@
  * Return: do not need to return anything if the return type is void. 
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
 		char letter = 'a';
 
