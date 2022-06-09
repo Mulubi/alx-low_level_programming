@@ -2,12 +2,9 @@
 
 /**
  * print_triangle - prints a triangle, followed by a new line.
- *
  * @size: an input integer.
- *
  * Return: always 0.
  */
-
 void print_triangle(int size)
 {
 	int i = 0, j, n = size - i;
