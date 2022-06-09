@@ -2,12 +2,9 @@
 
 /**
  * print_diagonal - draws a diagonal line on the terminal.
- *
  * @n: an input integer.
- *
  * Return: always 0.
  */
-
 void print_diagonal(int n)
 {
 	int i = 0, j;
@@ -16,7 +13,7 @@ void print_diagonal(int n)
 	{
 		for (; i < n; i++)
 		{
-			for (j = 0; j < i j++)
+			for (j = 0; j < i; j++)
 				_putchar(' ');
 		_putchar(92);
 		_putchar('\n');
