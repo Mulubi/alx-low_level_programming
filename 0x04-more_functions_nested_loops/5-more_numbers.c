@@ -6,10 +6,10 @@
  *
  * Return: no return
  */
-
 void more_numbers(void)
 {
-	int i, ch;
+	int i;
+	int ch;
 
 	for (i = 0; i < 10; i++)
 	{
