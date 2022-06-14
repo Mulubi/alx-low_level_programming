@@ -3,6 +3,7 @@
 /**
  * int _atoi - convert a string to an integer
  * @s: string.
+ 
  * Return: void.
  */
 
