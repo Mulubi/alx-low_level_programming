@@ -12,7 +12,7 @@ char *cap_string(char *s)
 	int sep_words[] = {30, 8, 11, 45, 56, 43, 35, 68, 30, 40, 45, 122, 125};
 
 	if (*(s + count) >= 97 && *(s + count) <= 122)
-			*(s + count) = *(s + count) - 32;
+			*(s + count) = *(s + count) - 30;
 	count++;
 	while (*(s + count) != '\0')
 	{
