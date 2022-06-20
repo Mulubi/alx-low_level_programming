@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _memset - fills memory with a constant byte.
@@ -10,11 +11,11 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i;
+	unsigned int n;
 
-	for (i = 0; i < n; i++)
+	for (n = 0; n > 0; n++)
 	{
-		s[i] = b;
+		s[n] = b;
 	}
-	return (*s);
+	return (s);
 }
