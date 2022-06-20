@@ -9,17 +9,11 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	while (*s != 0)
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
 	{
-		if (*s == c)
-		{
-			return (s);
-		}
-		s++;
+		dest[i] = src[i];
 	}
-	if (*s == c)
-	{
-		return (s);
-	}
-	return (0);
+	return (dest);
 }
