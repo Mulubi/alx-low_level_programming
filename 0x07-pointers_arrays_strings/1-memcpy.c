@@ -2,9 +2,9 @@
 
 /**
  * _memcpy - copies memory area.
- * @s: pointer to char
- * @c: char parameter to found
- * Return: to pointer s
+ * @dest: destination to memory area
+ * @src: source memory area
+ * Return: the pointer to dest
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
