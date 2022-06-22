@@ -28,7 +28,7 @@ int p1(char *s, int k)
 	{
 		return (1);
 	}
-	
+
 	if (*s == *(s + k))
 	{
 		return (p1(s + 1, k - 2));
