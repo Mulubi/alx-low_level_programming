@@ -3,7 +3,7 @@
 int tmp_prime(int n, int k);
 
 /**
- * divisor - checks if prime number.
+ * divisors - checks if prime number.
  * @n: integer
  * @m: integer
  * Return: a specified condition
@@ -33,7 +33,7 @@ int divisors(int n, int m)
 
 int is_prime_number(int n)
 {
-	if ((!(n % 2) && n !=2) || n < 2)
+	if ((!(n % 2) && n != 2) || n < 2)
 	{
 		return (0);
 	}
