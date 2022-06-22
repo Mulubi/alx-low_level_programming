@@ -2,7 +2,7 @@
 
 /**
  * factorial - returns the factorial of a given number.
- * @n: any integer.
+ * @n: any integer
  * Return: recursion.
  */
 
