@@ -13,7 +13,7 @@ char *_strdup(char *str)
 	char *strout;
 	unsigned int k, l;
 
-	if (str == NULL);
+	if (str == NULL)
 		return (NULL);
 
 		for (k = 0; str[k] != '\0'; k++);
@@ -23,7 +23,7 @@ char *_strdup(char *str)
 		if (strout == NULL)
 			return (NULL);
 
-		for (l = 0; l <= k; l++)
+		for (l = 0; l <= k; l++);
 			strout[l] = str[l];
 
 	return (strout);
