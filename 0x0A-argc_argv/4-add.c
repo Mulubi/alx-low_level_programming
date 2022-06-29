@@ -6,7 +6,8 @@
  * main - adds positive numbers.
  * @argc: counts
  * @argv: array of args
- * Return: 0
+ * Return: 0 is success
+ * Return: 1 is error
  */
 
 int main(int argc, char *argv[])
