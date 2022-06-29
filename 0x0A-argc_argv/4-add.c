@@ -6,8 +6,7 @@
  * main - adds positive numbers.
  * @argc: counts
  * @argv: array of args
- * Return: 0 is success
- * Return: 1 is error
+ * Return: 0 is success 1 is error
  */
 
 int main(int argc, char *argv[])
@@ -20,7 +19,7 @@ int main(int argc, char *argv[])
 		{
 			if (!isdigit (argv[i][j]))
 			{
-				printf("ERror\n");
+				printf("Error\n");
 				return (1);
 			}
 		}
