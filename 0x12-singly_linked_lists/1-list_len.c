@@ -9,13 +9,11 @@
 
 size_t list_len(const list_t *h)
 {
-	size_t numnodes;
+	const list_t *tmp;
+	unsigned int i;
 
-	numnodes = 0;
-	while (h != NULL);
-	{
-		h = h->next;
-		numnodes++;
-	}
-	return (numnodes);
+	tmp = h;
+	for (i = 0; tmp; i++)
+		tmp = tmp->next;
+	return (i);
 }
