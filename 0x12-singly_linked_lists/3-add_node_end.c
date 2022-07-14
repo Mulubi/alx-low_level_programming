@@ -4,17 +4,17 @@
 
 /**
  * _strlen - finds the length of the string
- * @str: the string 
+ * @str: the string
  * Return: length of string
  */
 
 unsigned int _strlen(char *str)
 {
-        unsigned int i;
+	unsigned int i;
 
-        for (i = 0; str[i]; i++)
-                ;
-        return (i);
+	for (i = 0; str[i]; i++)
+		;
+	return (i);
 }
 
 /**
@@ -30,7 +30,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	list_t *newnode, *tmp;
 
 	if (str == NULL)
-	return (NULL);
+		return (NULL);
 	newnode = malloc(sizeof(list_t));
 	if (newnode == NULL)
 		return (NULL);
@@ -41,7 +41,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		return (NULL);
 	}
 	newnode->len = _strlen(newnode->str);
-	newnode->next = *head;
+	newnode->next = NULL;
 	if (*head == NULL)
 	{
 		*head = newnode;
@@ -51,6 +51,5 @@ list_t *add_node_end(list_t **head, const char *str)
 	while (tmp->next)
 		tmp = tmp->next;
 	tmp->next = newnode;
-
 	return (newnode);
 }
