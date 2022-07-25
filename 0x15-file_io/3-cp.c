@@ -58,7 +58,7 @@ void ch99(ssize_t check, char *file, int fd_from, int fd_to)
 {
 	if (check == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't write to %S\N", file);
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file);
 		if (fd_from != -1)
 			close(fd_from);
 		if (fd_to != -1)
@@ -102,7 +102,7 @@ int main(argc, char *argv[])
 	ch97(argc);
 	fd_from = open(argv[1], O_RDONLY);
 
-	ch98(ssize_t0fd_from, argv[1], -1, -1);
+	ch98((ssize_t)fd_from, argv[1], -1, -1);
 	file_perm = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH;
 	fd_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, file_perm);
 
